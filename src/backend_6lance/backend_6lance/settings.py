@@ -25,7 +25,7 @@ SECRET_KEY = '5avjc+@e&)y&9qisn4+(0n%+*8_^*i$fjak=1o(t*u7#lg07b7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['backend6lance.pythonanywhere.com']
 
 
 # Application definition
@@ -120,3 +120,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/Backend6lance/6LanceBackend/src/backend_6lance/static/'
